@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Expense Tracker Offline</title>
+<style>
+  :root {
+    --bg: #f6f6fb;
+    --card: #ffffff;
+    --text: #1f2430;
+    --muted: #6b7280;
+    --accent: #6c5ce7;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.7;
+    padding: 40px 20px;
+  }
+  .container { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 1.9rem; margin-bottom: 6px; color: var(--accent); }
+  .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 28px; }
+  h2 { font-size: 1.2rem; margin: 28px 0 10px; color: var(--accent); }
+  p { margin-bottom: 12px; color: var(--text); }
+  ul { margin: 0 0 14px 22px; }
+  li { margin-bottom: 6px; }
+  .card {
+    background: var(--card);
+    border: 1px solid rgba(108,92,231,.2);
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin: 18px 0;
+  }
+  .card p:last-child { margin-bottom: 0; }
+  a { color: var(--accent); }
+  strong { color: #111827; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Privacy Policy</h1>
+  <div class="meta">Last updated: August 12, 2026 &middot; App: <strong>Expense Tracker Offline</strong></div>
+
+  <p>This Privacy Policy explains how <strong>Expense Tracker Offline</strong> ("we", "our", or "the app") collects, uses, and protects your information when you use our Android application.</p>
+
+  <p>We believe your financial data belongs to you. The app is designed to be <strong>offline-first</strong>: by default, all of your data is stored locally on your device and never leaves it. You decide whether to enable any optional features that involve your data.</p>
+
+  <h2>1. Information We Collect</h2>
+  <p>We do not sell your data, and we do not display advertisements. We collect only the information described below, and each item is optional unless stated otherwise.</p>
+
+  <div class="card">
+    <p><strong>Financial transactions and personal finance data.</strong> The expenses, income, budgets, debts, and shopping lists you enter in the app are stored locally on your device. This data is sent to our servers (via Firebase / Google Drive) <em>only</em> if you voluntarily enable account sign-in and cloud sync. You can disable sync at any time.</p>
+  </div>
+
+  <div class="card">
+    <p><strong>Account information.</strong> If you choose to sign in, we collect your email address and a user identifier (UID) to create and manage your account. If you sign in with Google, we also receive your display name and profile photo from your Google account. Accounts are used to enable cloud sync and are optional — the app is fully functional without an account.</p>
+  </div>
+
+  <div class="card">
+    <p><strong>SMS transaction messages.</strong> The app can automatically detect transactions from bank SMS messages (for example, from CBE, Telebirr, and MPesa). This feature is <strong>off by default</strong> and only works if you explicitly enable it. When enabled, SMS messages are read and parsed <strong>entirely on your device</strong>. The raw content of your messages is never uploaded, shared, or transmitted anywhere.</p>
+  </div>
+
+  <div class="card">
+    <p><strong>Purchase history.</strong> If you purchase Pro features, we receive the purchase and entitlement status from Google Play's billing service to unlock those features. Payment information such as credit card numbers is processed entirely by Google Play and never handled by us.</p>
+  </div>
+
+  <div class="card">
+    <p><strong>Device identifiers.</strong> Standard SDKs used for authentication and cloud services (Firebase, Google Play services) may transmit a technical device or installation identifier to function. These are used for service operation, not for tracking you.</p>
+  </div>
+
+  <h2>2. Information We Do Not Collect</h2>
+  <ul>
+    <li><strong>Biometric data.</strong> When you lock the app with your fingerprint or face, authentication is performed by your device's operating system. Biometric data never leaves your device and is never accessible to us.</li>
+    <li><strong>Location, contacts, photos, microphone, calendar, or browsing data.</strong></li>
+    <li><strong>Analytics or advertising identifiers.</strong> We do not use analytics SDKs and do not run advertising.</li>
+  </ul>
+
+  <h2>3. How We Use Information</h2>
+  <ul>
+    <li>To provide the core app functionality (tracking, budgeting, reports, debts, shopping lists).</li>
+    <li>To create and manage your account and provide cloud sync and backup when you enable it.</li>
+    <li>To detect and log transactions from SMS <em>only</em> when you enable the SMS detection feature.</li>
+    <li>To process and honor your Pro purchase entitlements.</li>
+    <li>To respond to your support requests.</li>
+  </ul>
+
+  <h2>4. Sharing of Information</h2>
+  <p>We do not sell, rent, or trade your personal information. We do not share your data with third parties for advertising or marketing. Data is shared with service providers <em>only</em> to operate the features you choose to use:</p>
+  <ul>
+    <li><strong>Google</strong> — for optional sign-in, cloud sync and backup (Firebase Authentication, Cloud Firestore, Google Drive). Data is transferred to these services only when you sign in and enable sync.</li>
+    <li><strong>Google Play</strong> — for processing Pro purchases (billing is handled entirely by Google Play).</li>
+  </ul>
+
+  <h2>5. Data Retention and Deletion</h2>
+  <p>Your locally stored data remains on your device until you delete it. If you use cloud sync, your data remains in your cloud storage until you delete it. You can:</p>
+  <ul>
+    <li>Delete individual records at any time from within the app.</li>
+    <li>Clear all app data through your device settings.</li>
+    <li>Delete your account, which removes your account information and associated synced data. You can request deletion by contacting us at the address below.</li>
+    <li>Export or delete your backup files at any time.</li>
+  </ul>
+  <p>We do not retain your data for longer than is necessary to provide the service.</p>
+
+  <h2>6. Security</h2>
+  <p>Your data is stored locally in an encrypted-friendly on-device database. Data transferred to our servers and cloud services is encrypted in transit using industry-standard TLS/HTTPS. You can additionally protect the app with a biometric lock (fingerprint or face ID). While we take reasonable measures to protect your information, no method of electronic storage or transmission is 100% secure.</p>
+
+  <h2>7. Permissions</h2>
+  <ul>
+    <li><strong>SMS access (READ_SMS):</strong> Used solely for the optional SMS transaction detection feature. It is disabled unless you enable it, and all parsing happens on your device.</li>
+    <li><strong>Biometric (USE_BIOMETRIC):</strong> Used only to unlock the app when you enable the optional app lock.</li>
+    <li><strong>Storage / Files:</strong> Used only when you explicitly export or restore backup files.</li>
+    <li><strong>Notifications:</strong> Used to notify you about scheduled or recurring transactions you set up.</li>
+    <li><strong>Internet:</strong> Used only for the optional features you enable (cloud sync, sign-in, purchases, and on-device entity extraction from SMS).</li>
+  </ul>
+
+  <h2>8. On-Device Processing and On-Device AI</h2>
+  <p>Features such as SMS transaction detection, entity extraction from message content, and certain AI-assisted functionality run entirely on your device. Your message content is never sent to us or to third parties for these features.</p>
+
+  <h2>9. Children's Privacy</h2>
+  <p>The app is not directed to children under the age of 13 (or the minimum age required in your country). We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us and we will delete it.</p>
+
+  <h2>10. Your Rights</h2>
+  <p>Depending on your location (for example, under the GDPR or CCPA), you may have rights to access, correct, export, or delete your personal information, and to object to or restrict certain processing. To exercise these rights, contact us using the details below. We do not use your data for automated decision-making that has legal effects on you.</p>
+
+  <h2>11. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. When we do, we will revise the "Last updated" date at the top of this page. We encourage you to review this policy periodically. Material changes will be communicated through the app where appropriate.</p>
+
+  <h2>12. Contact Us</h2>
+  <p>If you have any questions about this Privacy Policy, your data, or to request data deletion, you can contact us at:</p>
+  <p><strong>nathnaelnigussie19@gmail.com</strong></p>
+  <p>We aim to respond to all legitimate requests within a reasonable time.</p>
+
+  <p style="margin-top:32px; color:var(--muted); font-size:0.85rem;">Expense Tracker Offline — Take control of your financial future, one tap at a time.</p>
+</div>
+</body>
+</html>
